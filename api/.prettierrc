@@ -1,0 +1,9 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "prettier/prettier": ["error", {}, {
+    "usePrettierrc": false
+  }],
+  "no-unused-vars": "off",
+  "@typescript-eslint/no-unused-vars": ["error"]
+}

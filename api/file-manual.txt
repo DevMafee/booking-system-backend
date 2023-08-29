@@ -1,0 +1,20 @@
+
+// Check if File Data Exists in permanent or temp
+this.fileUploadService.fileValidationCheck(fileName, 'field_name');
+
+// Check if File Data Exists in permanent or temp if data exists on payload. if no data found on payload then skip for next
+this.fileUploadService.fileValidationCheckIfDataExists(fileName, 'field_name');
+
+// Check if File Data Exists in temp
+this.fileUploadService.tempFileValidationCheck(fileName, 'field_name');
+
+// Check if File Data Exists in temp if data exists on payload. if no data found on payload then skip for next
+this.fileUploadService.tempFileValidationCheckIfDataExists(fileName, 'field_name');
+
+
+// Remove file if exist in parpanent and file selection on update
+this.fileUploadService.removeFileIfFileHasChanged(oldFile: string, newFile: string)
+
+// Move file from temp if exist 
+// accept String or Array of file
+this.fileUploadService.moveTempFileIsExists(fileName: string | string[])
